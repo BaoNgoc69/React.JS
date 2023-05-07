@@ -8,7 +8,7 @@
         "select-doctor": "Chọn bác sĩ giỏi nhất",
         "fee": "Gói khám",
         "check-health": "Khám sức khỏe tổng quát",
-        "support": "Hỗ trợ",
+        "Login": "Đăng nhập",
         "welcome": "Xin chào, "
     },
     "banner": {
@@ -58,7 +58,10 @@
     "homepage": {
         "outstading-doctor": "Bác sĩ nổi bật tuần qua",
         "more-infor": "Xem thêm",
-        "speciality": "Chuyên khoa nổi bật"
+        "speciality": "Chuyên khoa nổi bật",
+        "medical-facility": "Cơ sở y tế nổi bật",
+        "think": "Mọi người nghĩ gì về chúng tôi ?",
+        "about": "Chất lượng dịch vụ: Bệnh viện phải cung cấp chất lượng dịch vụ y tế tốt, đảm bảo các quy trình chẩn đoán, điều trị, chăm sóc bệnh nhân được thực hiện đúng và đảm bảo an toàn, hiệu quả và đúng thời gian. Trang thiết bị và công nghệ: Bệnh viện cần trang bị đầy đủ các trang thiết bị y tế và các công nghệ mới nhất để đảm bảo khả năng chẩn đoán và điều trị bệnh tốt hơn. Đội ngũ y bác sĩ và nhân viên y tế chuyên nghiệp: Đội ngũ y bác sĩ và nhân viên y tế tận tâm, nhiệt tình, có trình độ chuyên môn cao và tay nghề giỏi để hỗ trợ bệnh nhân. Môi trường và không gian khám chữa bệnh: Một bệnh viện tốt cần có môi trường thoải mái, không gian sạch sẽ, thông thoáng, đáp ứng tốt nhu cầu khám chữa bệnh và giảm căng thẳng cho bệnh nhân. Chi phí hợp lý: Bệnh viện cần đưa ra các giải pháp phù hợp để cân bằng hoạt động kinh doanh và đảm bảo chi phí phù hợp cho người bệnh, tránh tình trạng xây dựng giá đắt đỏ."
     },
     "manage-schedule": {
         "title": "Quản lý kế hoạch khám bệnh của bác sĩ",

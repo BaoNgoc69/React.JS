@@ -49,7 +49,7 @@ class Specialty extends Component {
 
 
                         </span>
-                        <button className='btn-section'>
+                        <button className='btn-section btn btn-outline-light'>
 
                             <FormattedMessage id={"homepage.more-infor"} />
                         </button>
@@ -64,7 +64,7 @@ class Specialty extends Component {
                                             onClick={() => this.handleViewSpecialty(item)}
 
                                         >
-                                            <div className='bg-image section-specicalty'
+                                            <div className='bg-image section-specicalty img-thumbnail img-fluid border-success'
 
                                                 style={{ backgroundImage: `url(${item.image})` }}
 

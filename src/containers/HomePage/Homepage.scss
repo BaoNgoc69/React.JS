@@ -9,8 +9,8 @@
 
     &.section-about {
         height: 450px !important;
-        border-top: 1px solid orange;
-        border-bottom: 1px solid orange;
+        // border-top: 1px solid orange;
+        // border-bottom: 1px solid orange;
     }
 
 
@@ -29,6 +29,7 @@
                 background-repeat: no-repeat !important;
                 background-size: cover;
                 background-color: #eee;
+                padding: 5px;
 
                 &.section-specicalty {
                     //background-image: url('../../assets/specialties/181619-sieu-am-thai.jpg');
@@ -70,7 +71,7 @@
 }
 
 .section-share {
-    height: 330px;
+    height: 290px;
 
     .section-content {
         margin: 0 70px;
@@ -78,9 +79,9 @@
         flex-direction: column;
 
         .section-header {
-            height: 60px;
-            margin-bottom: 30px;
-            padding-top: 30px;
+            height: 51px;
+            margin-bottom: 9px;
+            padding-top: 13px;
 
             .title-section {
                 font-size: 20px;
@@ -91,17 +92,15 @@
                 float: right;
                 display: block;
                 padding: 10px 15px;
-                border: none;
                 outline: none;
                 background: rgb(248, 239, 239);
                 color: black;
                 cursor: pointer;
                 text-transform: uppercase;
-
-                &:hover {
-                    color: #fff;
-                    background: rgb(151, 61, 61);
-                }
+                // &:hover {
+                //     color: #fff;
+                //     background: rgb(231, 138, 138);
+                // }
             }
 
         }
@@ -126,10 +125,10 @@
 
     }
 
-    .customize-border {
-        border: 1px solid orange;
-        padding: 20px;
-    }
+    // .customize-border {
+    //     border-radius: 1px solid orange;
+    //     padding: 20px;
+    // }
 }
 
 .home-footer {
@@ -145,6 +144,7 @@
         // padding: 20px 10px;
         font-size: 22px;
         font-weight: 600;
+        margin: 20px;
     }
 
     .section-about-content {

@@ -48,7 +48,7 @@ class Doctor extends Component {
                         <span className='title-section'>
                             <FormattedMessage id="homepage.outstading-doctor" />
                         </span>
-                        <button className='btn-section'>
+                        <button className='btn-section btn btn-outline-light'>
                             <FormattedMessage id="homepage.more-infor" />
                         </button>
                     </div>
@@ -70,8 +70,8 @@ class Doctor extends Component {
                                             onClick={() => this.handleViewDetialDoctor(item)}
                                         >
                                             <div className='customize-border'>
-                                                <div className='outer-bg'>
-                                                    <div className='bg-image section-doctor'
+                                                <div className='outer-bg img-thumbnail img-fluid rounded border-success'>
+                                                    <div className='bg-image section-doctor img-thumbnail img-fluid'
                                                         style={{ backgroundImage: `url(${imageBase64})` }}
                                                     />
                                                     <div className='position text-center'>

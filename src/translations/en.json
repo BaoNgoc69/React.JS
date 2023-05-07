@@ -8,7 +8,7 @@
         "select-doctor": "Choose the best doctor",
         "fee": "Medical examination service",
         "check-health": "General health check",
-        "support": "Support",
+        "Login": "Login",
         "welcome": "welcome, "
     },
     "banner": {
@@ -56,8 +56,11 @@
     },
     "homepage": {
         "outstading-doctor": "Featured doctor of the week",
-        "more-infor": "More-infor",
-        "speciality": "Outstanding specialist"
+        "more-infor": "See more",
+        "speciality": "Outstanding specialist",
+        "medical-facility": "Outstanding medical facility",
+        "think": "What do people think of us?",
+        "about": "Service quality: Hospitals must provide good quality medical services, ensure that the procedures for diagnosis, treatment, and patient care are performed correctly and safely, effectively and on time. Equipment and technology: Hospitals need to be fully equipped with the latest medical equipment and technologies to ensure better diagnostic and treatment capabilities. Professional team of doctors and medical staff: A team of dedicated, enthusiastic, highly qualified and skilled medical doctors and medical staff to support patients. Environment and space for medical examination and treatment: A good hospital needs to have a comfortable environment, clean and well-ventilated space, to meet the needs of medical examination and treatment and reduce stress for patients. Reasonable costs: Hospitals need to come up with appropriate solutions to balance business operations and ensure appropriate costs for patients, avoiding expensive construction."
     },
     "manage-schedule": {
         "title": "Manage doctor's examination plan",

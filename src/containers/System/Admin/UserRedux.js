@@ -222,7 +222,7 @@ class UserRedux extends Component {
         console.log('check props from redux component: ', this.state)
         return (
             <div className='user-redux-container'>
-                <div className='title'>Danh sách người dùng</div>
+                <div className='title'>Thêm mới người dùng</div>
                 {/* <div>{isGetGenders === true ? 'Loading genders' : ''}</div> */}
                 <div className="user-redux-body" >
                     <div className='container'>

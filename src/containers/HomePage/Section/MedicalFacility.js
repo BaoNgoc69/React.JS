@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import MedicalFacilities from "../../../assets/medical-facility/115837-3anh-bia-diag.png"
 import { getAllClinic } from "../../../services/userService";
 import { withRouter } from 'react-router';
+import { FormattedMessage } from 'react-intl';
 
 class MedicalFacility extends Component {
 
@@ -43,8 +44,8 @@ class MedicalFacility extends Component {
             <div className='section-share section-medical-facility'>
                 <div className='section-content'>
                     <div className='section-header'>
-                        <span className='title-section'>Cơ sở y tết nổi bật</span>
-                        <button className='btn-section'>Xem thêm</button>
+                        <span className='title-section'> <FormattedMessage id={"homepage.medical-facility"} /></span>
+                        <button className='btn-section btn btn-outline-light'><FormattedMessage id={"homepage.more-infor"} /></button>
                     </div>
                     <div className='section-body'>
                         <Slider {...this.props.settings}>
@@ -53,7 +54,7 @@ class MedicalFacility extends Component {
                                 dataClinics.map((item, index) => {
                                     return (
                                         <div className='section-customize' >
-                                            <div className='bg-image section-medical-facility'
+                                            <div className='bg-image section-medical-facility img-thumbnail img-fluid border-success'
                                                 onClick={() => this.handleViewClinic(item)}
 
                                                 key={index}

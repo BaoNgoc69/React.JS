@@ -12,10 +12,10 @@ class HomeHeader extends Component {
 
     }
     returnToHome = () => {
-        // if (this.props.history) {
-        //     this.props.history.push('/home');
+        if (this.props.history) {
+            this.props.history.push('/home');
 
-        // }
+        }
 
     }
     render() {
@@ -47,14 +47,16 @@ class HomeHeader extends Component {
                             </div>
                         </div>
                         <div className='right-content'>
-                            <div className='support'>
+
+                            <a href="http://localhost:3001/login" class="btn btn-outline-primary" role="button" ><FormattedMessage id="homeheader.Login" /></a>
+                            {/* <div className='support'>
                                 <i className='fas fa-question-circle'>
 
                                 </i>
                                 <span>
                                     <FormattedMessage id="homeheader.support" />
                                 </span>
-                            </div>
+                            </div> */}
                             <div className={language === LANGUAGES.VI ? 'language-vi active' : 'language-vi'}><span onClick={() => this.changeLanguage(LANGUAGES.VI)}>VN</span></div>
                             <div className={language === LANGUAGES.EN ? 'language-en active' : 'language-en'}><span onClick={() => this.changeLanguage(LANGUAGES.EN)}>EN</span></div>
 
